@@ -63,7 +63,7 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  padding-top: 70px;
+  padding-top: 83px;
 }
 
 .hero__subtitle {
@@ -100,7 +100,8 @@ body {
 }
 
 .hero__img {
-  width: 100%;
+  background-image: url("../assets/graphic.png");
+  height: 710px;
+  width: 97%;
 }
-
 /* /Hero ======================================== */
