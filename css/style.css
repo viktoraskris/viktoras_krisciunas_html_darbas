@@ -9,7 +9,7 @@
   --light1: #ffffff;
   --light2: #eeeeee;
   --light3: #cccccc;
-  --orange: linear-gradient(0deg, #ff8139, #ff8139), #ff8139;
+  --orange: #ff8139;
   --pink: #ff3998;
   --green: #39ffa0;
   --red: #ff3939;
@@ -51,3 +51,43 @@ body {
 }
 
 /* /Header ====================================== */
+
+/* Hero ========================================= */
+
+.hero {
+  display: flex;
+}
+
+.hero__subtitle {
+  color: var(--pink);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero__h1 {
+  font-weight: 900;
+  font-size: 6rem;
+  margin-bottom: 0.33em;
+  color: var(--dark1);
+}
+
+.hero__p {
+  color: var(--dark2);
+}
+
+.btn {
+  border: 4px solid var(--orange);
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: var(--light1);
+  color: var(--dark1);
+  padding: 1.1em 2.75em;
+}
+
+.hero__img {
+  /* width: 75%; */
+}
+
+/* /Hero ======================================== */
