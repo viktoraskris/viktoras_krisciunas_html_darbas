@@ -1,0 +1,21 @@
+/* Variables ================================== */
+
+:root {
+  /* COLORS */
+  --dark1: #111111;
+  --dark2: #555555;
+  --dark3: #777777;
+  --dark4: #999999;
+  --light1: #ffffff;
+  --light2: #eeeeee;
+  --light3: #cccccc;
+  --orange: linear-gradient(0deg, #ff8139, #ff8139), #ff8139;
+  --pink: #ff3998;
+  --green: #39ffa0;
+  --red: #ff3939;
+  --light-green: #edfff6;
+  --light-orange: #fff0e8;
+  /* /COLORS */
+}
+
+/* Variables ================================== */
