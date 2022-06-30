@@ -42,11 +42,17 @@ body {
 
 .top-navbar {
   display: flex;
-  gap: 28px;
+  gap: 30px;
   color: var(--dark2);
 }
 
-.top-navbar a:last-child {
+.tn__a {
+  font-size: 20px;
+  font-weight: 300;
+  color: var();
+}
+
+.tn__a:last-child {
   color: var(--pink);
 }
 
@@ -56,13 +62,16 @@ body {
 
 .hero {
   display: flex;
+  align-items: center;
+  padding-top: 70px;
 }
 
 .hero__subtitle {
   color: var(--pink);
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
+  margin-bottom: 1.5rem;
 }
 
 .hero__h1 {
@@ -74,6 +83,9 @@ body {
 
 .hero__p {
   color: var(--dark2);
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 300;
 }
 
 .btn {
@@ -84,10 +96,11 @@ body {
   background-color: var(--light1);
   color: var(--dark1);
   padding: 1.1em 2.75em;
+  margin-top: 1em;
 }
 
 .hero__img {
-  /* width: 75%; */
+  width: 100%;
 }
 
 /* /Hero ======================================== */
