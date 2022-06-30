@@ -27,3 +27,27 @@ body {
 }
 
 /* /Global css ================================= */
+
+/* Header ====================================== */
+
+.top-header {
+  margin-top: 70px;
+}
+
+.th__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-navbar {
+  display: flex;
+  gap: 28px;
+  color: var(--dark2);
+}
+
+.top-navbar a:last-child {
+  color: var(--pink);
+}
+
+/* /Header ====================================== */
