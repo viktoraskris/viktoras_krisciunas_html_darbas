@@ -53,7 +53,7 @@ body {
   color: var();
 }
 
-.tn__a:last-child {
+.tn__signup {
   color: var(--pink);
 }
 
@@ -96,7 +96,7 @@ body {
   font-size: 20px;
   background-color: var(--light1);
   color: var(--dark1);
-  padding: 1.1em 2.75em;
+  padding: 1em 2.75em;
   margin-top: 1em;
 }
 
@@ -458,14 +458,17 @@ li a {
   .container {
     max-width: 364px;
   }
+
   /* Header ========================================== */
   .top-header {
     margin-top: 32px;
     padding-bottom: 83px;
   }
+
   .tn__a {
     display: none;
   }
+
   .tn__hamburger {
     width: 24px;
     height: 4px;
@@ -475,4 +478,31 @@ li a {
   }
 
   /* /Header ========================================= */
+
+  /* Hero ============================================ */
+
+  .hero__heading {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 0.33em;
+    color: var(--dark1);
+  }
+
+  .hero__text {
+    width: 63%;
+    position: absolute;
+  }
+
+  .hero__img {
+    background-image: url("../assets/graphic.png");
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+    height: 410px;
+    top: -90px;
+    left: 180px;
+  }
+
+  /* /Hero =========================================== */
 }
