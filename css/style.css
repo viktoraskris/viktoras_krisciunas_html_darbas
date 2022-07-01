@@ -24,9 +24,6 @@
 
 body {
   font-family: "Inter", sans-serif;
-  /* LAIKINAI PADDINGAS BOT */
-  padding-bottom: 3300px;
-  /* /LAIKINAI PADDINGAS BOT */
 }
 
 /* /Global css ================================= */
@@ -432,11 +429,25 @@ li a {
   color: var(--dark2);
 }
 
+.footer__copyrights {
+  padding-top: 100px;
+  margin-bottom: 71px;
+  display: flex;
+  align-items: center;
+  flex-basis: 100%;
+  justify-content: space-between;
+  grid-column: span 2;
+}
+
 .footer__copy-text {
   font-size: 20px;
   line-height: 100%;
   color: var(--dark4);
   font-weight: 300;
+}
+
+.footer__copy-text p {
+  margin-bottom: 0;
 }
 
 /* /Footer =========================================== */
