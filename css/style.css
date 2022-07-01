@@ -340,3 +340,20 @@ body {
 }
 
 /* /CTA ============================================== */
+
+/* Footer ============================================ */
+
+.footer__nftlanding p {
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--dark2);
+  font-weight: 300;
+}
+
+.footer__nftlanding i {
+  padding-right: 16px;
+  color: var(--dark4);
+  font-size: 1.15rem;
+}
+
+/* /Footer =========================================== */
