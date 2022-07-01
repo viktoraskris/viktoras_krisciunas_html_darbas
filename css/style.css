@@ -380,6 +380,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.footer__links ul {
+  list-style-type: none;
+}
+
 .footer__links li:nth-child(1) {
   font-weight: 700;
   font-size: 16px;
@@ -387,6 +391,13 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--dark2);
+  padding-bottom: 28px;
+}
+
+.footer__links li:nth-child(2),
+li:nth-child(3),
+li:nth-child(4) {
+  padding-bottom: 20px;
 }
 
 .footer_links ul,
