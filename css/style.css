@@ -342,6 +342,25 @@ body {
 /* /CTA ============================================== */
 
 /* Footer ============================================ */
+.footer__nftlanding {
+  grid-area: nft;
+}
+
+.footer__links {
+  grid-area: links;
+}
+
+.footer__copyrights {
+  grid: copyright;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "nft links"
+    "copyright .";
+}
 
 .footer__nftlanding p {
   font-size: 20px;
