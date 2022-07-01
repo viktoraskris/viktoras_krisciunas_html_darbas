@@ -284,6 +284,10 @@ body {
   margin-bottom: 85px;
 }
 
+.hr-bot {
+  margin-bottom: 120px;
+}
+
 .hr__border {
   border: 1px solid var(--light2);
 }
@@ -295,7 +299,6 @@ body {
 .cta {
   display: flex;
   align-items: center;
-  padding-bottom: 83px;
   justify-content: space-between;
 }
 
