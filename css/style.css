@@ -157,6 +157,10 @@ body {
 
 /* Showcase section ================================= */
 
+.showcase {
+  padding-bottom: 7.5rem;
+}
+
 .showcase__heading {
   font-weight: 400;
   font-size: 40px;
@@ -170,7 +174,7 @@ body {
   font-size: 20px;
   font-weight: 300;
   color: var(--dark2);
-  margin-bottom: 0;
+  margin-bottom: 3.5rem;
 }
 
 .showcase__p--a {
@@ -178,11 +182,19 @@ body {
   font-weight: normal;
 }
 
+.showcase__cards {
+  display: flex;
+  /* justify-content: space-between;
+   */
+  gap: 40px;
+}
+
 .showcase__card {
   display: flex;
   flex-direction: column;
   width: 290px;
   /* width: 18.125rem; */
+  flex-shrink: 0;
 }
 
 .showcase__card-info {
@@ -265,3 +277,60 @@ body {
 }
 
 /* /Showcase section ================================ */
+
+/* HR ================================================ */
+
+.hr {
+  margin-bottom: 85px;
+}
+
+.hr__border {
+  border: 1px solid var(--light2);
+}
+
+/* /HR =============================================== */
+
+/* CTA =============================================== */
+
+.cta {
+  display: flex;
+  align-items: center;
+  padding-bottom: 83px;
+  justify-content: space-between;
+}
+
+.cta__text {
+  flex-basis: 44%;
+}
+
+.cta__subtitle {
+  color: var(--pink);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 1.5rem;
+}
+
+.cta__heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin-bottom: 0.33em;
+  color: var(--dark1);
+}
+
+.cta__p {
+  color: var(--dark2);
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 300;
+}
+
+.cta__img {
+  background-image: url("../assets/upsell-footer-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 467px;
+  width: 49.6%;
+}
+
+/* /CTA ============================================== */
