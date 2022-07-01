@@ -344,6 +344,10 @@ body {
 /* Footer ============================================ */
 .footer__nftlanding {
   grid-area: nft;
+  display: flex;
+  flex-direction: column;
+  width: 37%;
+  align-self: first baseline;
 }
 
 .footer__links {
@@ -359,7 +363,17 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "nft links"
-    "copyright .";
+    "copyright copyright";
+}
+
+.footer__brand-logo {
+  width: 85%;
+  padding-bottom: 30px;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 15px;
 }
 
 .footer__nftlanding p {
@@ -367,10 +381,11 @@ body {
   line-height: 100%;
   color: var(--dark2);
   font-weight: 300;
+  padding-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .footer__nftlanding i {
-  padding-right: 16px;
   color: var(--dark4);
   font-size: 1.15rem;
 }
@@ -380,12 +395,21 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.footer__about {
+  padding-left: 28px;
+}
+
+.footer__ntf {
+  padding-left: 32px;
+}
+
 .footer__links ul {
   list-style-type: none;
+  margin: 0;
 }
 
 .footer__links li:nth-child(1) {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.1em;
@@ -397,7 +421,7 @@ body {
 .footer__links li:nth-child(2),
 li:nth-child(3),
 li:nth-child(4) {
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 }
 
 .footer_links ul,
