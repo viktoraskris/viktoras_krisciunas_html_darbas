@@ -515,7 +515,7 @@ li a {
   /* Upsell section ================================== */
 
   .upsell-section {
-    max-width: 428px;
+    max-width: 100%;
     padding-bottom: 4.35rem;
   }
 
@@ -582,12 +582,17 @@ li a {
   /* HR ============================================== */
 
   .hr {
+    max-width: 100%;
     margin-bottom: 4rem;
   }
 
   /* /HR ============================================= */
 
   /*  CTA ============================================ */
+
+  .cta {
+    height: 563px;
+  }
 
   .cta__text {
     width: 48%;
@@ -608,6 +613,10 @@ li a {
     font-weight: 300;
   }
 
+  .cta__btn {
+    margin-top: 1.5em;
+  }
+
   .cta__img {
     background-image: url("../assets/upsell-footer-image.svg");
     background-repeat: no-repeat;
@@ -615,9 +624,17 @@ li a {
     position: relative;
     height: 467px;
     width: 100%;
-    top: 95px;
+    top: 49px;
     left: 63px;
   }
 
   /*  /CTA =========================================== */
+
+  /* HR bot ========================================== */
+
+  .hr-bot {
+    max-width: 100%;
+  }
+
+  /* /HR bot ========================================= */
 }
