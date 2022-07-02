@@ -467,6 +467,10 @@ li a {
     max-width: 364px;
   }
 
+  body {
+    overflow: hidden;
+  }
+
   /* Header ========================================== */
   .top-header {
     margin-top: 32px;
@@ -598,7 +602,6 @@ li a {
     width: 48%;
     position: absolute;
     padding-top: 0px;
-    height: ;
   }
 
   .cta__p {
@@ -637,4 +640,8 @@ li a {
   }
 
   /* /HR bot ========================================= */
+
+  /* Footer ========================================== */
+
+  /* /Footer ========================================= */
 }
