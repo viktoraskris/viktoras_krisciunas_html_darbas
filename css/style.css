@@ -43,7 +43,7 @@ body {
 
 .top-navbar {
   display: flex;
-  gap: 30px;
+  /* gap: 30px; */
   color: var(--dark2);
 }
 
@@ -51,10 +51,16 @@ body {
   font-size: 20px;
   font-weight: 300;
   color: var();
+  padding: 0 15px;
+}
+
+.top-navbar a:first-child {
+  padding-left: 0px;
 }
 
 .tn__signup {
   color: var(--pink);
+  padding-right: 0px;
 }
 
 /* /Header ====================================== */
@@ -73,6 +79,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   margin-bottom: 1.5rem;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .hero__heading {
@@ -474,7 +482,7 @@ li a {
   /* Header ========================================== */
   .top-header {
     margin-top: 32px;
-    padding-bottom: 83px;
+    padding-bottom: 80px;
   }
 
   .tn__a {
@@ -493,16 +501,25 @@ li a {
 
   /* Hero ============================================ */
 
+  .hero {
+    padding-bottom: 80px;
+  }
+
   .hero__heading {
     font-weight: 900;
     font-size: 3rem;
-    margin-bottom: 0.33em;
+    margin-bottom: 24px;
     color: var(--dark1);
+  }
+
+  .hero__p {
+    margin-bottom: 9px;
   }
 
   .hero__text {
     width: 63%;
     position: absolute;
+    top: 145px;
   }
 
   .hero__img {
@@ -675,6 +692,14 @@ li a {
 
   .footer__links ul {
     padding-left: 0;
+  }
+
+  .footer__contacts li:last-child {
+    padding-bottom: 0;
+  }
+
+  .footer__social li:last-child {
+    padding-bottom: 0;
   }
 
   .footer__copyrights {
