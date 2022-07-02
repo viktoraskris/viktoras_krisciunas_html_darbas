@@ -637,11 +637,54 @@ li a {
 
   .hr-bot {
     max-width: 100%;
+    margin-bottom: 64px;
   }
 
   /* /HR bot ========================================= */
 
   /* Footer ========================================== */
+
+  .footer__nftlanding {
+    grid-area: nft;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-self: first baseline;
+    margin-bottom: 64px;
+  }
+
+  .footer__links {
+    grid-area: links;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .footer__copyrights {
+    grid: copyright;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "nft"
+      "links"
+      "copyright";
+  }
+
+  .footer__links ul {
+    padding-left: 0;
+  }
+
+  .footer__copyrights {
+    padding-top: 64px;
+    margin-bottom: 105px;
+  }
+
+  .footer__copy-text--mobile {
+    display: none;
+  }
 
   /* /Footer ========================================= */
 }
