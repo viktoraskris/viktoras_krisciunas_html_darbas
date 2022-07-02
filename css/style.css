@@ -179,7 +179,7 @@ body {
 }
 
 .showcase__p {
-  line-height: 1.87rem;
+  line-height: 1.875rem;
   font-size: 20px;
   font-weight: 300;
   color: var(--dark2);
@@ -591,7 +591,11 @@ li a {
   /* Showcase section ================================ */
 
   .showcase {
-    padding-bottom: 5.8rem;
+    padding-bottom: 5.75rem;
+  }
+
+  .showcase__heading {
+    margin-bottom: 1rem;
   }
 
   .showcase__p {
